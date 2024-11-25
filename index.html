@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="assets/vector.png" alt="Logo">
+        <h1 class="cabecalho__titulo">Felipe de Oliveira Gonçalves</h1>
+        <nav class="navegacao">
+            <ul class="navegacao__lista">
+                <li class="navegacao__elemento"><a href="#sobre-mim">Sobre mim</a></li>
+                <li class="navegacao__elemento"><a href="#skills">Skills</a></li>
+                <li class="navegacao__elemento"><a href="#hobbies">Hobbies</a></li>
+                <li class="navegacao__elemento"><a href="#formacao">Formação</a></li>
+                <li class="navegacao__elemento"><a href="#formacao__experiencia">Experiência Profissional</a></li>
+                <li class="navegacao__elemento"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Apresentação -->
+    <section class="apresentacao">
+        <img class="apresentacao__foto" src="assets/profile.png" alt="Foto de perfil">
+        <div class="apresentacao__conteiner">
+            <h2 class="apresentacao__titulo">Olá, meu nome é Felipe de Oliveira Gonçalves e construo páginas web</h2>
+            <p class="apresentacao__subtitulo">Sou formado em Publicidade e Propaganda e atualmente estou participando do projeto Oracle ONE na Alura Latam.</p>
+            <ul class="redes">
+                <li class="redes__elemento"><a href="https://github.com/fesao09" target="_blank">Github <img src="assets/arrow.png" alt="Seta"></a></li>
+                <li class="redes__elemento"><a href="https://www.linkedin.com/in/felipeoliveira01" target="_blank">Linkedin <img src="assets/arrow.png" alt="Seta"></a></li>
+                <li class="redes__elemento"><a href="https://www.instagram.com/fesao09" target="_blank">Instagram <img src="assets/arrow.png" alt="Seta"></a></li>
+                <li class="redes__elemento"><a href="assets/curriculo.pdf" target="_blank">Currículo <img src="assets/arrow.png" alt="Seta"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção sobre mim -->
+    <section class="sobre-mim" id="sobre-mim">
+        <h2 class="sobre-mim__titulo">Sobre mim</h2>
+        <p class="sobre-mim__texto">Possuo experiência de 11 anos em e-commerce, com atualizações de produtos, cadastros novos e integrações de marketplaces.</p>
+        <p class="sobre-mim__texto">Atualmente trabalho como Líder de Cadastro e estou participando do projeto Oracle One na Alura, para mudar de área e entrar no universo de Programação.</p>
+    </section>
+
+    <!-- Seção de Skills -->
+    <section class="skills" id="skills">
+        <h2 class="skills__titulo">Skills</h2>
+        <ul class="skills__lista">
+            <li class="skills__elemento">
+                <img class="skills__icone" src="assets/html.png" alt="HTML">
+                <p class="skills__nome">HTML 5</p>
+            </li>
+            <li class="skills__elemento">
+                <img class="skills__icone" src="assets/js_icon.png" alt="JavaScript">
+                <p class="skills__nome">JavaScript</p>
+            </li>
+            <li class="skills__elemento">
+                <img class="skills__icone" src="assets/nodejs_icon.png" alt="Node.js">
+                <p class="skills__nome">Node.js</p>
+            </li>
+            <li class="skills__elemento">
+                <img class="skills__icone" src="assets/react_icon.png" alt="React">
+                <p class="skills__nome">React</p>
+            </li>
+            <li class="skills__elemento">
+                <img class="skills__icone" src="assets/css_icon.png" alt="CSS">
+                <p class="skills__nome">CSS</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h2 class="hobbies__titulo">Hobbies</h2>
+        <ul class="hobbies__lista">
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/podcast_icon.png" alt="Ouvir Podcast">
+                <p class="hobbies__nome">Ouvir Podcast</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/futebol_icon.png" alt="Jogar Futebol">
+                <p class="hobbies__nome">Jogar Futebol</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/headphones_icon.png" alt="Ouvir música">
+                <p class="hobbies__nome">Ouvir Música</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/tv_icon.png" alt="Assistir séries">
+                <p class="hobbies__nome">Assistir Séries</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/games_icon.png" alt="Video-Games">
+                <p class="hobbies__nome">Video-Games</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Formação Acadêmica -->
+    <section class="formacao" id="formacao">
+        <h2 class="formacao__titulo">Formação Acadêmica</h2>
+        <ul class="formacao__lista">
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/unip_logo.png" alt="UNIP">
+                <h3 class="formacao__nome">Publicidade e Propaganda</h3>
+                <p class="formacao__detalhe">2013 - UNIP</p>
+            </li>
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/alura2.png" alt="Alura">
+                <h3 class="formacao__nome">Formação Alura ONE Next Education</h3>
+                <p class="formacao__detalhe">Em andamento - Alura</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Experiência Profissional -->
+    <section class="formacao__experiencia" id="formacao__experiencia">
+        <h2 class="formacao__titulo__experiencia">Experiência Profissional</h2>
+        <div class="formacao__lista__experiencia">
+            <div class="formacao__elemento formacao__elemento--esquerda">
+                <img src="assets/criptografia.png" alt="Projeto 1" class="formacao__imagem">
+                <div>
+                    <h3 class="formacao__nome">Decodificador de texto</h3>
+                    <p class="formacao__detalhe">Challenge Alura Codificador</p>
+                    <p class="formacao__detalhe">Jogo criado com HTML, CSS e JavaScript</p>
+                    <p class="formacao__detalhe">Challenge Oracle</p>
+                    <div class="formacao__botoes">
+                        <a href="https://github.com/fesao09/challenge" class="formacao__botao">Repositório</a>
+                        <a href="https://jogoteste-seven.vercel.app/" class="formacao__botao">Ver demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="formacao__elemento formacao__elemento--direita">
+                <div>
+                    <h3 class="formacao__nome">Jogo Tetris</h3>
+                    <p class="formacao__detalhe">Jogo em desenvolvimento junto ao ChatGpt</p>
+                    <p class="formacao__detalhe">Jogo criado com HTML, CSS e JavaScript</p>
+                    <div class="formacao__botoes">
+                        <a href="https://github.com/fesao09/jogotetris" class="formacao__botao">Repositório</a>
+                    </div>
+                </div>
+                <img src="assets/tetris.png" alt="Tetris" class="formacao__imagem">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="contato" id="contato">
+        <h2 class="contato__titulo">Contato</h2>
+        <form class="contato__formulario" id="contatoForm">
+            <input class="contato__campo" type="text" placeholder="Nome">
+            <input class="contato__campo" type="email" placeholder="E-mail">
+            <textarea class="contato__campo contato__campo--textarea" placeholder="Mensagem"></textarea>
+            <button class="contato__botao" type="submit">Enviar</button>
+        </form>
+        <p id="mensagemEnviada" style="display: none;">Mensagem Enviada</p>
+    </section>
+    <footer>
+        <p>Criado e Desenvolvido por Felipe com os ensinamentos da Alura - 2024</p>
+    </footer>
+</body>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            const offset = 100; // Adjust this value according to your header height
+            const bodyRect = document.body.getBoundingClientRect().top;
+            const elementRect = target.getBoundingClientRect().top;
+            const elementPosition = elementRect - bodyRect;
+            const offsetPosition = elementPosition - offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    document.getElementById('contatoForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Simulate email sending process
+        setTimeout(() => {
+            document.getElementById('mensagemEnviada').style.display = 'block';
+        }, 500); // Adjust the delay as needed
+    });
+</script>
+</html>
